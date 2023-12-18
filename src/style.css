@@ -1,0 +1,23 @@
+.Parent {
+  height: 300px;
+  width: 500px;
+  border: 2px solid gray;
+  padding: 10px;
+  justify-content: center;
+  background-color: rgb(7, 106, 106);
+}
+.Parent p {
+  color: white;
+  font-weight: 500;
+}
+.Child {
+  width: 100%;
+  background-color: rgb(6, 103, 103);
+  margin-top: 50px;
+}
+.Child input {
+  width: 400px;
+  margin: 2px;
+  border: 0;
+  height: 2rem;
+}
